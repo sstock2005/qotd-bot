@@ -1,7 +1,7 @@
 
 # Quote of the Day Discord Bot
 
-A simple discord bot that sends a random quote every day at 1:00PM CDT (6:00PM UCT).
+A simple discord bot that sends a random quote every day at 1:00PM CDT (6:00PM UCT). Don't ask about the hello command, I forgot to delete it and may get around to it sometime.  
 
 - Multiple Guild Support
 - Simple but powerful user commands
@@ -23,7 +23,8 @@ A simple discord bot that sends a random quote every day at 1:00PM CDT (6:00PM U
     - Clears guild specific quote database.
 
 ## Showcase
-[image here] 
+![image](https://github.com/sstock2005/qotd-bot/assets/144393153/ab289197-dabf-4190-94a0-2c490f489d96)  
+![image](https://github.com/sstock2005/qotd-bot/assets/144393153/26de2d16-13b4-4fe2-b601-2162ad10d6c2)
 
 ## Storage Logic
 - Creates new folder for each guild joined.
@@ -36,6 +37,7 @@ A simple discord bot that sends a random quote every day at 1:00PM CDT (6:00PM U
 - Edit `config.py`
     - Add your discord bot token
     - Add your base directory (`./guilds`)
+        - You may need to create a new directory for this!
 
 ## Installation
 ```
